@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font: 400 16px Roboto;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.content {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+header {
+    background: #4054B2;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo {
+    font: 700 24px Scada;
+    color: #fff;
+}
+
+.tarefas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 20px;
+    margin: 10px 15px;
+    width: 200px;
+    height: 150px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card.weather {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-status {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: #999;
+    font-weight: 500;
+}
+
+.card.color1 {
+    background: #86FFEA;
+}
+
+.card.color2 {
+    background: #D7B7FD;
+}
+
+.card.weather img {
+    height: 70px;
+}
+
+.weather-values {
+    opacity: .6;
+}
+
+.weather-title {
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: .35px;
+    font-size: 26px;
+}
+
+footer {
+    background: #C5CAE9;
+    padding: 30px;
+    text-align: center;
+}
+
+li {
+    color: black;
+}
